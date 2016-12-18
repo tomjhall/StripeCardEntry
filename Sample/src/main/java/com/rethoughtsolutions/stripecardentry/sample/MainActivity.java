@@ -1,4 +1,4 @@
-package com.rethoughtsolutions.swipecardentry.sample;
+package com.rethoughtsolutions.stripecardentry.sample;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,11 +6,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.rethoughtsolutions.swipecardentry.SwipeCardEntry;
+import com.rethoughtsolutions.stripecardentry.StripeCardEntry;
 
 public class MainActivity extends Activity {
 
-    private SwipeCardEntry mSwipeCardEntry;
+    private StripeCardEntry mSwipeCardEntry;
 
     private Button mPayButton;
 
@@ -19,11 +19,11 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mSwipeCardEntry = (SwipeCardEntry) findViewById(R.id.swipecardentry);
+        mSwipeCardEntry = (StripeCardEntry) findViewById(R.id.swipecardentry);
         mPayButton = (Button) findViewById(R.id.paybutton);
 
 
-        mSwipeCardEntry.setListener(new SwipeCardEntry.Listener() {
+        mSwipeCardEntry.setListener(new StripeCardEntry.Listener() {
             @Override
             public void onCardEntryCompleted(boolean completed) {
                 mPayButton.setEnabled(completed);
