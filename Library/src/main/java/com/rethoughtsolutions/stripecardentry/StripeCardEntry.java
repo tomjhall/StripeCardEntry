@@ -36,7 +36,6 @@ import java.util.regex.Pattern;
  * Implementation of a credit card entry field, with validation of number, and expiry month/year.
  */
 public class StripeCardEntry extends View {
-
 	private static final String NUMBER_HINT = "1234 5678 9012 3456";
 	private static final String EXPIRY_HINT = "MM/YY";
 	private static final String CVC_HINT = "CVC";
