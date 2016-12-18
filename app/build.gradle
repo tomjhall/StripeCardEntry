@@ -24,6 +24,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile project(':Library')
+    compile project(':stripecardentry')
+//    compile 'com.rethoughtsolutions.stripecardentry:stripecardentry:1.0.0'
 }

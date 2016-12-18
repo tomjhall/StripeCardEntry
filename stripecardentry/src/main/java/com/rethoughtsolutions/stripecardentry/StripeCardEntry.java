@@ -421,7 +421,7 @@ public class StripeCardEntry extends View {
 	}
 
 	/**
-	 * @return the expiry month (1 >= expiry month >= 12), or 0 if not set.
+	 * @return the expiry month (1 &gt;= expiry month &gt;= 12), or 0 if not set.
 	 */
 	public int getExpiryMonth() {
 		if (mMode.ordinal() > Mode.EXPIRY_MONTH.ordinal()) {
