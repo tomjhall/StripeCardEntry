@@ -25,5 +25,4 @@ android {
 
 dependencies {
     compile project(':stripecardentry')
-//    compile 'com.rethoughtsolutions.stripecardentry:stripecardentry:1.0.0'
 }

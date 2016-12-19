@@ -15,10 +15,17 @@ StripeCardEntry really is just a space saving, intuitive UI for card entry:
 
 .. image:: demo.gif
 
-Installation
-------------
 
-Just copy over the StripeCardEntryLibrary to your AndroidStudio project & add as a dependency.
+Download
+---
+
+StripeCardEntry is available in the jCenter repository:
+
+```java
+dependencies {
+  compile 'com.rethoughtsolutions.stripecardentry:stripecardentry:1.0.0'
+}
+```
 
 General use
 -----------
