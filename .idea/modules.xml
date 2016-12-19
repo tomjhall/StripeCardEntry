@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Sample/Sample.iml" filepath="$PROJECT_DIR$/Sample/Sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SwipeCardEntry.iml" filepath="$PROJECT_DIR$/SwipeCardEntry.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SwipeCardEntryLibrary/SwipeCardEntryLibrary.iml" filepath="$PROJECT_DIR$/SwipeCardEntryLibrary/SwipeCardEntryLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StripeCardEntry.iml" filepath="$PROJECT_DIR$/StripeCardEntry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stripecardentry/stripecardentry.iml" filepath="$PROJECT_DIR$/stripecardentry/stripecardentry.iml" />
     </modules>
   </component>
 </project>
-
