@@ -23,7 +23,7 @@ StripeCardEntry is available in the jCenter repository:
 
 ```java
 dependencies {
-  compile 'com.rethoughtsolutions.stripecardentry:stripecardentry:1.0.0'
+  compile 'com.rethoughtsolutions.stripecardentry:stripecardentry:1.0.1'
 }
 ```
 
